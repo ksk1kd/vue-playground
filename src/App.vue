@@ -1,8 +1,10 @@
 <script setup lang="ts">
+import FormInputBindings from './components/FormInputBindings.vue'
 </script>
 
 <template>
   <div class="container">
+    <FormInputBindings />
   </div>
 </template>
 
