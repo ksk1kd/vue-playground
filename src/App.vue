@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import ComponentProps from './components/ComponentProps.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
 </script>
 
 <template>
   <div class="container">
+    <ComponentProps stringProp="aaa" :numberProp="Number(100)" :booleanProp="true" :arrayProp="['aaa', 'bbb']"/>
     <FormInputBindings />
   </div>
 </template>
