@@ -2,10 +2,12 @@
 import ComponentProps from './components/ComponentProps.vue'
 import ComputedProperties from './components/ComputedProperties.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
+import Watchers from './components/Watchers.vue'
 </script>
 
 <template>
   <div class="container">
+    <Watchers />
     <ComputedProperties />
     <ComponentProps stringProp="aaa" :numberProp="Number(100)" :booleanProp="true" :arrayProp="['aaa', 'bbb']"/>
     <FormInputBindings />
