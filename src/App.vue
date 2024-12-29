@@ -10,10 +10,10 @@ import Watchers from './components/Watchers.vue'
 <template>
   <div class="container">
     <ComponentEvents />
+    <ComponentProps />
     <EventHandling />
     <Watchers />
     <ComputedProperties />
-    <ComponentProps stringProp="aaa" :numberProp="Number(100)" :booleanProp="true" :arrayProp="['aaa', 'bbb']"/>
     <FormInputBindings />
   </div>
 </template>

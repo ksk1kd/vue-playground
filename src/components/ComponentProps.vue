@@ -1,21 +1,11 @@
 <script setup lang="ts">
-interface Props {
-  stringProp: string
-  numberProp: number
-  booleanProp: boolean
-  arrayProp: string[]
-}
-
-const { stringProp, numberProp, booleanProp, arrayProp } = defineProps<Props>()
+import ComponentPropsChild from './ComponentPropsChild.vue'
 </script>
 
 <template>
   <h1>Component Props</h1>
 
   <section>
-    <p>stringProp: {{ stringProp }}</p>
-    <p>numberProp: {{ numberProp }}</p>
-    <p>booleanProps: {{ booleanProp }}</p>
-    <p>arrayProps: {{ arrayProp }}</p>
+    <ComponentPropsChild stringProp="aaa" :numberProp="Number(100)" :booleanProp="true" :arrayProp="['aaa', 'bbb']"/>
   </section>
 </template>
