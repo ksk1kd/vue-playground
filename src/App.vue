@@ -2,6 +2,7 @@
 import ComponentEvents from './components/ComponentEvents.vue'
 import ComponentFallthroughAttributes from './components/ComponentFallthroughAttributes.vue'
 import ComponentProps from './components/ComponentProps.vue'
+import ComponentProvideInject from './components/ComponentProvideInject.vue'
 import ComponentSlots from './components/ComponentSlots.vue'
 import ComponentVModel from './components/ComponentVModel.vue'
 import ComputedProperties from './components/ComputedProperties.vue'
@@ -12,6 +13,7 @@ import Watchers from './components/Watchers.vue'
 
 <template>
   <div class="container">
+    <ComponentProvideInject />
     <ComponentSlots />
     <ComponentFallthroughAttributes />
     <ComponentVModel />
