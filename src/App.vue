@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ComponentEvents from './components/ComponentEvents.vue'
 import ComponentProps from './components/ComponentProps.vue'
+import ComponentVModel from './components/ComponentVModel.vue'
 import ComputedProperties from './components/ComputedProperties.vue'
 import EventHandling from './components/EventHandling.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
@@ -9,6 +10,7 @@ import Watchers from './components/Watchers.vue'
 
 <template>
   <div class="container">
+    <ComponentVModel />
     <ComponentEvents />
     <ComponentProps />
     <EventHandling />
