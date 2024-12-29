@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import ComponentEvents from './components/ComponentEvents.vue'
 import ComponentProps from './components/ComponentProps.vue'
 import ComputedProperties from './components/ComputedProperties.vue'
 import EventHandling from './components/EventHandling.vue'
@@ -8,6 +9,7 @@ import Watchers from './components/Watchers.vue'
 
 <template>
   <div class="container">
+    <ComponentEvents />
     <EventHandling />
     <Watchers />
     <ComputedProperties />
